@@ -2,7 +2,7 @@
 """
 Created on Thu Sep 14 20:37:55 2023
 
-@author: smallsubset
+@author: Wei Li/Tiangui Liang/Zhiliang Cai
 """
 import csv
 import math
