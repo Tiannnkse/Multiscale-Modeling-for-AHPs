@@ -75,6 +75,8 @@ class GET_ABC:
         result = minner.scalar_minimize(method='Nelder-Mead', options={'maxiter': 500000000})
         # report_fit(result)
         result = str(result.params)
+
+
         return result
 
     def cal_abc(self, type_char, data):

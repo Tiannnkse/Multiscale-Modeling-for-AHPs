@@ -56,7 +56,7 @@ if __name__ == '__main__':
     # parameter dictionary:  R :gas constant  Ts:T_isotherm(K)
     para_dict = {'R': 8.314, 'T_iso': 318.15}
 
-    # --------------Step 1:isothermal adsorption curve fitting--------------
+    # --------------Step 1:adsorption isotherm fitting--------------
     list_char = ['A', 'B', 'C']
     list_num = ['1', '2', '3']
 
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     para_dict['epsilon'] = 0.4  # Porosity
     para_dict['C_pa'] = 2460  # specific heat of ethanol
     para_dict['C_pv'] = 2460  # specific heat of Vapor
-    para_dict['rho_v'] = 0.157  # vapor density of ethanol by ideal gas state equation
+    para_dict['rho_v'] = 0.0895  # vapor density of ethanol by ideal gas state equation
     para_dict['d_outtube'] = 0.022  # Diameter of out,tube = Diameter of in,s (Adsorbent)
     para_dict['h_ms'] = 100  # Heat transfer coefficient between metal and adsorbent
     para_dict['k_f'] = 0.6  # Thermal conductivity of Fluid
